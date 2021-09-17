@@ -1,5 +1,6 @@
 // Build: yarn start
 // Add: compress-images / mozjpeg / pngquant / svgo / gifsicle
+// if not folder === webp && images, crete
 
 let compress_images = require('compress-images');
 let InputPath = 'imagens/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}';

@@ -1,5 +1,6 @@
 // Build: yarn start
 // Add: compress-images / mozjpeg / pngquant / svgo / gifsicle
+// If not file === build/img && imagens - create
 
 let compress_images = require('compress-images');
 let InputPath = 'imagens/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}';
